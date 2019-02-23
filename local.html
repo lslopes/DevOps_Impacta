@@ -1,38 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>LSL TEC</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
 </head>
 <body>
-    <h2>Aula de Formulario</h2>
+    <h2> LSL TEC</h2>
+    <img src="home.jpg">
+    <h3>A sua loja de variedade de tecnologia</h3>
     <form  action="" method="POST">
-    <label>Nome do Usuario</label><br/>
-        <input maxlength="10" name="user" required placeholder="Digite seu usuario" type="text"name/><br/>
-    <label>Torcar Senha</label><br/>
-        <input maxlength="3" name="senha" required placeholder="Digite sua Senhas" type="password"/></label><br/>
-    
-        UF<br>
-        <select name="selesao">
-                <option value="SE">SE</option>
-                <option value="SE">SE</option>     
-        </select><br/>
-        <input type="checkbox" name="discipilna" value="DevOps">DevOps<br/>
-        <input type="checkbox" name="discipilna" value="DevOps">SQL<br/>
-        <input type="checkbox" name="discipilna" value="DevOps">Desenvolvimento<br/><br/>
-        Horario<br>
-        <input type="radio" name="discipilna" value="DevOps">07:00<br/>
-        <input type="radio" name="discipilna" value="DevOps">08:00<br/>
-        <input type="radio" name="discipilna" value="DevOps">09:00<br/>
+            UF<br>
+            <input type="radio" name="discipilna" value="DevOps">SP<br/>
+            <input type="radio" name="discipilna" value="DevOps">RJ<br/>
+            <input type="radio" name="discipilna" value="DevOps">RS<br/>  
+        <label>Rua/Av</label><br/>
+            <input maxlength="90" name="rua/av" required placeholder="Rua/AV" type="text"name/><br/>
+        <label>Numero</label><br/>
+            <input maxlength="30" name="numero" required placeholder="Numero" type="text"/></label><br/>
+        <label>CEP</label><br/>
+            <input maxlength="70" name="cep" required placeholder="CEP"/></label><br/>
+            Obs.<br/>
+        <textarea name="obs"  cols="30" rows="3"></textarea>
 
-        Obs.<br/>
-        <textarea name="obs"  cols="30" rows="10"></textarea>
-        <br/>
-        <input type="submit" value="Salvar"></label><br/>
-    </form>
-    </body>
+            <br/>
+            <br/>
+            <input type="submit" value="Comprar"></label><br/>
+        </form>
+        <br>
+        <a href="comtato.html">Finalizar</a>
+
+</body>
 </html>
