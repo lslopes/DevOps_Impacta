@@ -9,47 +9,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-
-
 </head>
 <body>
         <div id="home">
             <img src="home.png">            
         </div>
-
     <div id="cabecalho">
         <h3>A sua loja de variedade de tecnologia</h3>
+        <h4>A baixo estão alguns de nosso produtos</h4>
     </div>
-    
-    <form  action="" method="POST">
-        <div class="col-md-2">
-            <div class="form-group">
-                <label>Nome do comprador </label><br/>
-                <input maxlength="50" name="Nome" required placeholder="Nome do comprador " type="text"name/><br/>
-            </div>
-        </div> 
-        
-
-        <div class="col-md-2">
-                <div class="form-group">
-        <label>CPF do comprador</label><br/>
-            <input maxlength="11" name="CPF" required placeholder="CPF do comprador " type="text"/></label><br/>
-        </div>
-    </div> 
-        
-        
-            <div class="col-md-2">
-                <div class="form-group">
-            <label>E-mail</label><br/>
-            <input maxlength="70" name="email" type="email" required placeholder="Email"/></label><br/>      
-        </div>
-    </div>  
-            <br>
-            Selecione um Porduto<br>
+        <form  action="" method="POST">         
+            Selecione um Porduto
             <select name="selesao">
+                    <option value="Monitor">Selecione um ou mais</option>
                     <option value="Monitor">Monitor</option>
                     <option value="MB">MB</option>    
                     <option value="Monitor">Menoria</option>
@@ -71,19 +45,9 @@
                     <option value="Monitor">PS4</option>
                     <option value="MB">Xbox-ONE</option>   
             </select>            
-            <br/>
             <p class="direita">Obs. finalize a compra para cada porduto</p>
-            <input type="submit" value="Comprar"></label><br/>
-        </form>
-        <br>
+            <input type="submit" value="Comprar"></label>
+        </form>        
         <a href="venda_produto.html">Finalizar Compra</a>
 </body>
 </html>
-
-
-<div class="col-md-2">
-    <div class="form-group">
-        <label>Responsavel</label>
-        <input type="text" name="responsavel" class="form-control"  placeholder="Responsavel"><br><br>
-    </div>
-</div>

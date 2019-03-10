@@ -8,28 +8,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="formatacao.css">
 </head>
 <body>
-    <h2> LSL TEC</h2>
-    <img src="home.jpg">
-    <h3>A sua loja de variedade de tecnologia</h3>
+    <div id="home">
+            <img src="home.png">            
+        </div>
+        <div id="cabecalho">
+                <h3>A sua loja de variedade de tecnologia</h3>
+                <h4>A baixo estão as informaçoes que prcisamos sober pagamento</h4>
+            </div>
     <form  action="" method="POST">
-            Forma de Pagamento<br>
-            <input type="radio" name="discipilna" value="DevOps">Cerdito<br/>
-            <input type="radio" name="discipilna" value="DevOps">Debito<br/>
-            <input type="radio" name="discipilna" value="DevOps">Boleto<br/>   
-        <label>Nome do comprador </label><br/>
-            <input maxlength="50" name="Nome" required placeholder="Nome do comprador " type="text"name/><br/>
-        <label>CPF do comprador</label><br/>
-            <input maxlength="11" name="CPF" required placeholder="CPF do comprador " type="text"/></label><br/>
-        <label>Endereço</label><br/>
-            <input maxlength="70" name="Endereço" required placeholder="Endereço"/></label><br/>
-        <label>Numro Do cartão</label><br/>
-            <input maxlength="70" name="Numero_Do_Cartão" required placeholder="Numero do Cartão"/></label><br/>
-        <label>Cvv</label><br/>
-            <input maxlength="3" name="CVV" required placeholder="CVV"/></label><br/>
+        <div id="pagamento">    
+            Forma de Pagamento
+            <input type="radio" name="discipilna" value="DevOps">Cerdito
+            <input type="radio" name="discipilna" value="DevOps">Debito
+            <input type="radio" name="discipilna" value="DevOps">Boleto
             <br/>
-        Parcelas<br>
+        </div>
+            <input maxlength="50" name="Nome" required placeholder="Nome do comprador " type="text"name/>     
+            <input maxlength="11" name="CPF" required placeholder="CPF do comprador " type="text"/>
+            <input maxlength="70" name="Endereço" required placeholder="Endereço"/></label>    
+            <input maxlength="70" name="Numero_Do_Cartão" required placeholder="Numero do Cartão"/></label>    
+            <input maxlength="3" name="CVV" required placeholder="CVV"/></label>
+        Parcelas
         <select name="selesao">
                     <option value="Monitor">1x</option>
                     <option value="MB">2x</option>    
@@ -38,13 +42,16 @@
                     <option value="Monitor">5x</option>
                     <option value="MB">6x</option>            
             </select>
-            <br>  
-            <br/>
-            <input type="submit" value="Comprar"></label><br/>
+<br/>
+<div id="compra"></div>
+            <input type="submit" value="Comprar"></label>
+        </div>
         </form>
-        <br>
+    <div id="fim">       
         <a href="index.html">Volte e compre mais </a>
-        <br>
+              <br/>
         <a href="local.html">Terminar a compra e enderecela </a>
+    </div>
+    
 </body>
 </html>
